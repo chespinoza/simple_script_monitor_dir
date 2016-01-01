@@ -1,2 +1,13 @@
 # simple_script_monitor_dir
-A very simple solution using https://github.com/tartley/rerun2 for monitor dir changes and send a email alert if something changed.
+A very simple solution using https://github.com/tartley/rerun2 for monitor directory changes and send an email alert if something was changed.
+
+Required: inotify-tools
+yum install inotify-tools
+or use:
+apt-get install inotify-tools
+
+To run in background, enter to the directory to monitoring and run:
+
+nohup ./rerun.sh ./send_notification.sh&
+
+
