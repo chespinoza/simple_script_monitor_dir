@@ -1,5 +1,5 @@
 # simple_script_monitor_dir
-A very simple solution using https://github.com/tartley/rerun2 for monitor directory changes and send an email alert if something was changed.
+A very simple solution using https://github.com/tartley/rerun2 for monitoring directory changes and send an email alert if something was changed.
 
 Required: inotify-tools
 yum install inotify-tools
